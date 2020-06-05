@@ -19,7 +19,7 @@ Install the Netmiko Python Library.
 
 ## Running the script
 
-Populate CSV in the following format
+Populate CSV in the following format "hostname,mac,serial"
 Run ap_renamer.py
 
 ## Version 0.1
