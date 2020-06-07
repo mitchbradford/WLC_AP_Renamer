@@ -42,14 +42,8 @@ def rename_devices(ip_of_wlc):
 		
 		print ('Connecting to device ' + ip_address_of_wlc)
 		remote_conn = ConnectHandler(**ios_device)
-		#remote_conn.send_command("show ver")
 		
-		# command format is: config ap name < new name > <serial number>
-		# config ap name WAP101 FGL2105A1N
-
-		# show ap join stats summary all
-		# grab list of macs, find their current ap name, update to new
-		# run command with 
+		# Run command to update hostname per AP in CSV
 		for row in aps:
 			remote_conn.send_command("config ap name " + row['hostname'] + " " + row['serial'])
 			print("Updated device serial " + row['serial'] + " to " + row['hostname'])
