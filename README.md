@@ -15,13 +15,13 @@ Netmiko Python Library
 
 ### Installing
 
-Install the Netmiko Python Library.
+Install the Netmiko Python Library
 
 ## Running the script
 
 Populate CSV in the following format "hostname,mac,serial"
 
-Run ap_renamer.py
+Run run.py
 
 ## Version 1.0
 Added support for Cisco vWLC and C9800 WLCs
