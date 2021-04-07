@@ -23,6 +23,9 @@ Populate CSV in the following format "hostname,mac,serial"
 
 Run ap_renamer.py
 
+## Version 1.0
+Added support for Cisco vWLC and C9800 WLCs
+
 ## Version 0.1
 Initial Release
 
