@@ -19,7 +19,7 @@ Install the Netmiko Python Library
 
 ## Running the script
 ```
-git clone -https://github.com/mitchbradford/WLC_AP_Renamer.git 
+git clone https://github.com/mitchbradford/WLC_AP_Renamer.git 
 cd  WLC_AP_Renamer
 ```
 Populate CSV in the following format "hostname,mac,serial"
