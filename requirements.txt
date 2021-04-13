@@ -11,7 +11,7 @@ future==0.17.1
 idna==2.8
 importlib-metadata==3.7.0
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 meraki==0.34
 netmiko==2.4.1
