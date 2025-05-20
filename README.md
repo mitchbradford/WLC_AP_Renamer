@@ -1,6 +1,6 @@
 # WLC_AP_Renamer
 
-Python script to rename APs on a Cisco WLC based on a CSV file
+Python script to rename APs on a Cisco WLC based on a CSV file using Netmiko
 
 ## Getting Started
 
